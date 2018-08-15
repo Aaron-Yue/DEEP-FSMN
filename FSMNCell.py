@@ -48,7 +48,7 @@ class DFSMN(object):
                     mem_l.insert(ele_1, self._input_size*[0])
                 ele_1 += self._stride_l
             while ele_2 < len(mem_r):
-                for count2 in range(self._stride_l):
+                for count2 in range(self._stride_r):
                     mem_r.insert(ele_2, self._input_size*[0])
                 ele_2 += self._stride_r
 
